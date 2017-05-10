@@ -75,7 +75,7 @@ namespace terapia1
                 textBox1.ForeColor = Color.FromArgb(250*progressBar1.Value/100, secondcolor, thirdcolor);
             }
         }
-
+//lol 2 dodany komentarz
         private void timer2_Tick(object sender, EventArgs e)
         {
             textBox1.Text = Letters[rnd.Next(Letters.Length)];
