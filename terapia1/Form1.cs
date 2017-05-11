@@ -73,6 +73,8 @@ namespace terapia1
                     secondcolor = 100;
 
                 textBox1.ForeColor = Color.FromArgb(250*progressBar1.Value/100, secondcolor, thirdcolor);
+                textBox1.BackColor = Color.FromArgb(250 * progressBar1.Value / (100) / 2, secondcolor / 2, thirdcolor / 2);
+                this.BackColor = Color.FromArgb(250 * progressBar1.Value / (100) / 2, secondcolor / 2, thirdcolor / 2);
             }
         }
 //lol 2 dodany komentarz
